@@ -1,3 +1,4 @@
+```mermaid
 title: Bank example
 ---
 classDiagram
