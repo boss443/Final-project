@@ -1,4 +1,4 @@
----
+```mermaid
 title: Bank example
 ---
 classDiagram
@@ -7,3 +7,4 @@ classDiagram
     BankAccount : +Bigdecimal balance
     BankAccount : +deposit(amount)
     BankAccount : +withdrawal(amount)
+```
