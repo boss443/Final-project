@@ -1,7 +1,9 @@
-```mermaid
-flowchart LR
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+---
+title: Bank example
+---
+classDiagram
+    class BankAccount
+    BankAccount : +String owner
+    BankAccount : +Bigdecimal balance
+    BankAccount : +deposit(amount)
+    BankAccount : +withdrawal(amount)
