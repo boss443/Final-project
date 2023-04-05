@@ -1,7 +1,10 @@
 classDiagram
-class BankAccount{
-    +String owner
-    +BigDecimal balance
-    +deposit(amount)
-    +withdrawal(amount)
-}
+classA <|-- classB
+classC *-- classD
+classE o-- classF
+classG <-- classH
+classI -- classJ
+classK <.. classL
+classM <|.. classN
+classO .. classP
+
